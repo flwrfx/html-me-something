@@ -6,3 +6,35 @@ header {
 	text-align: center;
 }
 
+#double {
+	
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+article {
+	margin: 10px 15px;
+	
+	padding: 2em;
+	
+}
+
+article.left {
+	
+	width: 50%;
+}
+
+article.right {
+	
+	width: 50%;
+}
+
+footer {
+	
+}
+
+.botright {
+	
+}
