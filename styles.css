@@ -6,12 +6,19 @@ header {
 	text-align: center;
 }
 
-#double {
-	
+p {
+	word-wrap: break-word;
 }
 
 table, th, td{
-	border: 1px solid black;
+	
+	width:514px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	border: 1px dotted black;
 }
 
 article {
@@ -21,20 +28,17 @@ article {
 	
 }
 
-article.left {
-	
-	width: 50%;
+.inki {
+	padding-left: 22%;
 }
 
-article.right {
-	
-	width: 50%;
+footer.footer {
+	position: absolute;
+	bottom: -405px;
 }
 
-footer {
-	
-}
-
-.botright {
-	
+#botright {
+	position: absolute;
+	bottom: -407px;
+	right: 0px;
 }
